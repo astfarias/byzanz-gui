@@ -6,10 +6,9 @@ Fork version of byzanz-gui using xrectsel for select record area
 
 ## Dependencies
 
-byzanz: https://github.com/GNOME/byzanz
+byzanz: https://github.com/GNOME/byzanz  
 xrectsel: https://github.com/lolilolicon/xrectsel   
-byzanz-gui: https://github.com/rhcarvalho/byzanz-gui
-
+byzanz-gui: https://github.com/rhcarvalho/byzanz-gui  
 
 
 ## Usage
