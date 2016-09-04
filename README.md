@@ -1,11 +1,15 @@
 # byzanz-gui-select
 
+# Simple program to create animated GIFs on Linux of a selected area.
+
 Fork version of byzanz-gui using xrectsel for select record area
 
-xrectsel: https://github.com/lolilolicon/xrectsel
-byzanz=gui: https://github.com/rhcarvalho/byzanz-gui
+## Dependencies
 
-Simple program to create animated GIFs on Linux of a selected.
+byzanz: https://github.com/GNOME/byzanz  
+xrectsel: https://github.com/lolilolicon/xrectsel   
+byzanz-gui: https://github.com/rhcarvalho/byzanz-gui  
+
 
 ## Usage
 
@@ -16,7 +20,7 @@ Give the appropriate permissions to executable
 $ sudo chmod +x byzanz-gui-select
 ```
 
-Run the program:
+## Run the program:
 
 ```console
 $ byzanz-gui-select
