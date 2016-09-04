@@ -42,13 +42,9 @@ fi
 XRECTSEL=$( xrectsel "x:%x y:%y w:%w h:%h "|sed 's/ /\n/g'  ) || exit -1
 
 read X < <(awk -F: '/x:/{ print $2 }' <<< "$XRECTSEL")
-notify-send "Valor de X=" "$X"
 read Y < <(awk -F: '/y:/{ print $2 }' <<< "$XRECTSEL")
-notify-send "Valor de Y=" "$Y"
 read W < <(awk -F: '/w:/{ print $2 }' <<< "$XRECTSEL")
-notify-send "Valor de W=" "$W"
 read H < <(awk -F: '/h:/{ print $2 }' <<< "$XRECTSEL")
-notify-send "Valor de H=" "$H"
 
  
 # Notify the user of recording time and delay
